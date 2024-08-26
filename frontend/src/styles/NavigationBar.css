@@ -1,0 +1,30 @@
+.navigation-bar {
+    background-color: rgba(187, 72, 189, 0.9);
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation-bar ul li {
+    display: inline;
+}
+
+.navigation-bar ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+.navigation-bar ul li a:hover {
+    background-color: rgba(187, 72, 189, 0.425);
+    color: black;
+}
